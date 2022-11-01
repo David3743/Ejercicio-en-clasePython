@@ -5,8 +5,7 @@ print(paises)
 A=sorted(paises)
 print(A)
 #Aca se imprime en orden alfabetico inverso
-A.sort(reverse=True)
-print(A)
+print(sorted(paises, reverse=True))
 #Aca se utiliza reverse en la lista original
 paises.reverse()
 print(paises)
